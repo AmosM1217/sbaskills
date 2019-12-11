@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+
+<title> Welcome Page </title>
+      
+      <link href="css/bootstrap-reboot.min.css" rel="stylesheet"/>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio&display=swap">
+    
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+      <link href="style.css" rel="stylesheet" />
+      
+  <style>
+              @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    float:left;
+}
+      li a {
+          display:block;
+          padding: 8px;
+      }
+              
+         body{
+              background-color: rebeccapurple;
+              font: black; font-style: oblique;
+              }
+             
+          h1, h2, h3, h4,h5,h6 {
+              color: deeppink;
+              margin:30px;
+              font-family: "serif"
+                               } 
+      p{
+          margin-left: 30px;
+      }
+      div.header{
+          text-align: center;
+          color: deeppink;
+          font-size: 48px;
+          border-style: solid;
+          border-color: black; 
+          height:100px;
+      }
+            
+          </style> 
+  </head>
+    
+    <!-- This is the Header -->
+    
+   
+
+    <body>
+        
+	   <nav>
+		  <ul>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="contactUs.html">Request Consultation</a></li>
+			<li><a href="SocialMedia.html">Social Media</a></li>
+		  </ul>
+	   </nav>
+         <br />
+        
+        <p id="welcome"></p>
+<script>
+(function () {
+  document.getElementById("welcome").innerHTML = "Hello! Welcome to our site!";
+})();
+</script>
+        <div class="header"><b>Elle Symone Events</b></div>
+    
+
+	<div class="container" >
+        <br />
+
+
+		<h2>Melissa Amos, Founder and Creative Director</h2>
+		<h3><b>Bringing Beauty to Life on a Budget.</b></h3>
+		
+        <p><b>Biography</b></p>
+			<p class="container">Having over 15 years of           exeperience as an event coordinator
+				and interior decorator, Melissa has acquired the skills needed to make any occasion beautiful. She is located in the Blue Water Area and serves all
+				of the Metro Detroit Region.</p>
+    </div>
+		
+      <!-- This is my Subscription box -->
+     
+        
+      <h2>Elle Symone Events</h2>
+    
+<form action="/action_page.php">
+  <div class="container">
+    <h2>Subscribe and get 15% off! </h2>
+    <p>Subscribing to our monthly newsletters to be informed about upcoming events in your area.</p>
+  </div>
+
+  <div class="container" style="background-color: white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    </div>
+   
+    <label>
+      <div class="container">
+      <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
+        </div>
+    </label>
+
+  <div class="container">
+      <button onclick="myFunction()">Subscribe</button>
+ 
+  </div>
+</form>
+      
+  </body>
+</html>

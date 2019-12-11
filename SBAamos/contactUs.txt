@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <!-- This is the Contact Us page. 12/10/19 Melissa Amos -->
+
+<meta charset="ISO-8859-1">
+<title>Contact us</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gelasio&display=swap">
+    
+          <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+      
+          <style>
+              @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+          body{
+              background-color: beige;
+              font: black;
+              }
+          h1, h2, h3, h4,h5,h6 {
+              color: black;
+              margin-left:auto;
+              font-family: "serif"
+          }
+          label{
+                  margin: 10px; align-items: baseline;
+              }
+              p {
+                  margin-left: 5px;
+              }
+              div {
+                  display: block;
+              }
+        
+          </style>
+</head>
+
+    
+<body>
+    
+   <div style="background-color: purple; text-align: center; height: 100px; color: deeppink">
+	<h1>Elle Symone Events</h1>
+    </div>
+    
+      <nav> 
+        <li><a href="Index1.html">Return Home</a></li>
+    </nav>
+        <br />
+
+		<p>Sign up and receive a free consultation!</p>
+		<form>
+
+            <label for="FirstName">First Name </label> 
+            <input id="FirstName" type="text" name="name" required /> <br /> 
+            <label for="LastName"> Last Name </label>
+            <input id="LastName" type="text" name="name" required /> <br />
+            <label for="email">Email</label> 
+            <input id="email" type="email" name="email" /> <br />
+        <button onclick="myFunction()">Submit</button>
+
+		</form>
+
+</body>
+</html>
